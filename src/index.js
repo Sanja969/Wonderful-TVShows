@@ -5,7 +5,7 @@ import createTvCard from './UI.js';
 let i = 1;
 
 while (i < 100) {
-  getData(i).then(data => {
+  getData(i).then((data) => {
     createTvCard(data.name, data.image.medium);
   });
   i += 1;
