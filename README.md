@@ -42,6 +42,12 @@ I am an aspiring web developer from Serbia.
 - Twitter: [@sanjaTwit](https://twitter.com/SanjaMandic42)
 - LinkedIn: [@sanjaIn](https://linkedin.com/in/sanja-mandic-823995a2/)
 
+👤 **Ibrahim Naseer**
+
+I am an aspiring web developer from pakistan.
+- GitHub: [@ibrahimgit](https://github.com/ibrahim777764)
+- Twitter: [Ibrahimtwit](https://twitter.com/Ibrahim66650696)
+- LinkedIn: [@ibrahimlin](https://www.linkedin.com/in/ibrahim-naseer-215667225/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
