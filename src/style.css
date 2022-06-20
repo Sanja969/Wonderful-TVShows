@@ -2,10 +2,73 @@
   font-family: 'Permanent Marker', cursive;
 }
 
+.navbar {
+  height: 150px;
+  background-color: rgb(30, 29, 31);
+  box-shadow: 0 0 20px white;
+}
+
+main {
+  padding: 200px 10px;
+  background: rgb(31, 29, 29);
+  background-size: contain;
+}
+
+footer > div {
+  transform: translateY(100%);
+}
+
 .bottom {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.navbar {
-  height: 150px;
+.tv-container {
+  
 }
+
+.tv-card {
+  background-color: rgb(9, 9, 9);
+  text-align: center;
+  width: 200px;
+  margin: 20px;
+  box-shadow: 0 0 10px 10px black;
+  padding: 10px;
+}
+
+.tv-card:hover {
+  background-color: #ffc107;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.593);
+}
+
+.card-img {
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .tv-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (min-width: 992px) {
+  .tv-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+@media (min-width: 1200px) {
+  .tv-container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+  }
+}
+
+@media (min-width: 1800px) {
+  .tv-container {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+  }
+}
+
