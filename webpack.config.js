@@ -6,7 +6,8 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
-    API: './src/API.js',
+    displayAPI: './src/displayAPI.js',
+    likeAPI: './src/likeAPI.js',
     UI: './src/UI.js',
     popup: './src/popup.js',
   },
