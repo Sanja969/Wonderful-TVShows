@@ -2,10 +2,91 @@
   font-family: 'Permanent Marker', cursive;
 }
 
+.navbar {
+  height: 150px;
+  background-color: rgb(30, 29, 31);
+  box-shadow: 0 0 20px white;
+}
+
+main {
+  padding: 200px 10px;
+  background: rgb(31, 29, 29);
+  background-size: contain;
+}
+
+footer > div {
+  transform: translateY(100%);
+}
+
 .bottom {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.navbar {
-  height: 150px;
+.tv-card {
+  background-color: rgb(9, 9, 9);
+  text-align: center;
+  width: 250px;
+  margin: 20px;
+  box-shadow: 0 0 10px 10px black;
+  padding: 10px 25px;
+}
+
+.tv-card:hover {
+  background-color: #ffc107;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.593);
+}
+
+.card-img {
+  width: 200px;
+}
+
+.card-title {
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+}
+
+.like {
+  cursor: pointer;
+  font-size: 25px;
+  color: red;
+}
+
+.like:hover {
+  text-shadow: 0 0 5px rgb(165, 32, 32);
+}
+
+@media (min-width: 768px) {
+  .tv-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (min-width: 910px) {
+  .tv-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (min-width: 1200px) {
+  .tv-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+@media (min-width: 1500px) {
+  .tv-container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+  }
+}
+
+@media (min-width: 1800px) {
+  .tv-container {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+  }
 }

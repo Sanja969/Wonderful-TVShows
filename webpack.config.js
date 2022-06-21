@@ -6,6 +6,9 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
+    API: './src/API.js',
+    UI: './src/UI.js',
+    popup: './src/popup.js',
   },
   devtool: 'inline-source-map',
   devServer: {
