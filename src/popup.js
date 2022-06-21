@@ -1,4 +1,4 @@
-const popup = (title, img) => {
+const popup = () => {
 
 };
 

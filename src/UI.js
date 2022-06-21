@@ -21,7 +21,7 @@ const createTvCard = (title, img) => {
     tvCard.children[1].children[1].textContent = '❤';
   });
   tvCard.children[2].addEventListener('click', () => {
-    popup(title, img);
+    popup();
   });
 };
 
