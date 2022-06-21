@@ -1,8 +1,6 @@
+import popup from './popup.js';
+
 const tvContainer = document.querySelector('.tv-container');
-
-const popup = () => {
-
-};
 
 const createTvCard = (title, img) => {
   const tvCard = document.createElement('div');
@@ -23,7 +21,7 @@ const createTvCard = (title, img) => {
     tvCard.children[1].children[1].textContent = '❤';
   });
   tvCard.children[2].addEventListener('click', () => {
-    popup();
+    popup(title, img);
   });
 };
 
