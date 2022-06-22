@@ -6,8 +6,8 @@ Wonderful-TVShows pulls data from the TVMAZE API, and shows data on main page fo
 
 ## Built With
 
-- Language: ES6
-- Technologies: CSS, Linters, Boostap
+- Language: ES6 - Javascript
+- Technologies: CSS, Linters, Bootstap, Jest, API-REST
 - Packages: Webpack
 
 
