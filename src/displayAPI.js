@@ -1,5 +1,7 @@
 import createTvCard from './UI.js';
+import { itemCounter } from './counter.js';
 
+const itemCount = document.querySelector('.item-count');
 const TVurl = 'https://api.tvmaze.com/shows/';
 let count = 1;
 
@@ -15,7 +17,6 @@ const getTvData = async (id) => {
 const showTvCards = () => {
   while (count < 100) {
     getTvData(count).then((data) => {
-      console.log(data);
       const list = [data.name,
         data.image.medium,
         data.id, data.summary,
@@ -24,10 +25,10 @@ const showTvCards = () => {
         data.premiered,
         data.ended];
       createTvCard(...list);
+      itemCount.textContent = itemCounter(document.querySelectorAll('.tv-card'));
     });
     count += 1;
   }
-  return count;
 };
 
 export default showTvCards;

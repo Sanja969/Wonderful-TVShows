@@ -42,9 +42,10 @@ footer > div {
 }
 
 .card-title {
-  overflow: hidden;
-  white-space: nowrap;
+  white-space: normal;
+  width: 80%;
   color: white;
+  height: 50px;
 }
 
 .like {
@@ -86,6 +87,10 @@ footer > div {
   border-radius: 20px;
 }
 
+.popup-title {
+  margin-top: 20px;
+}
+
 .popup > li {
   width: 90%;
   list-style: none;
@@ -103,10 +108,11 @@ footer > div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 
 form {
-  width: 300px;
+  width: 350px;
   padding: 0;
 }
 
@@ -115,10 +121,37 @@ input {
   background: #ffc107;
   border: none;
   box-shadow: 0 0 5px 5px #ffc107;
+  width: 100%;
 }
 
-.comment {
+.commentMsg {
   height: 200px;
+}
+
+.comment-box {
+  clear: left;
+  margin: 20px;
+  width: 90%;
+}
+
+.comment-box > div {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 200px;
+  box-shadow: 0 0 10px white;
+}
+
+.comment-box > div::-webkit-scrollbar {
+  width: 8px;
+}
+
+.comment-box > div::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);
+}
+
+.comment-box > div::-webkit-scrollbar-thumb {
+  background-color: #ffc107;
+  border-radius: 20px;
 }
 
 @media (min-width: 768px) {
@@ -146,10 +179,6 @@ input {
     width: 400px;
     padding: 0;
     align-items: flex-start !important;
-  }
-
-  input {
-    width: 90%;
   }
 }
 
