@@ -1,5 +1,5 @@
 {
-  "name": "filmofill",
+  "name": "wonderful-TVShows",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sanja969/filmofill.git"
+    "url": "git+https://github.com/Sanja969/wonderful-TVShows.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sanja969/filmofill/issues"
+    "url": "https://github.com/Sanja969/wonderful-TVShows/issues"
   },
-  "homepage": "https://github.com/Sanja969/filmofill#readme",
+  "homepage": "https://github.com/Sanja969/wonderful-TVShows#readme",
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/plugin-transform-modules-commonjs": "^7.18.2",
