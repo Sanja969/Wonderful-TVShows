@@ -8,8 +8,10 @@ module.exports = {
     index: './src/index.js',
     displayAPI: './src/displayAPI.js',
     likeAPI: './src/likeAPI.js',
+    commentAPI: './src/commentAPI.js',
     UI: './src/UI.js',
     popup: './src/popup.js',
+    counter: './src/counter.js',
   },
   devtool: 'inline-source-map',
   devServer: {

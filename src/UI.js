@@ -26,11 +26,12 @@ const createTvCard = (title, img, id, summary, rating, genres, premiered, ended)
   });
   tvCard.children[1].children[1].addEventListener('click', () => {
     tvCard.children[1].children[1].textContent = '❤';
-    createLike(id);
-    findItemsLike(id, likeNum);
+    createLike(id).then(() => {
+      findItemsLike(id, likeNum);
+    });
   });
   tvCard.children[3].addEventListener('click', () => {
-    popup(title, img, summary, rating, genres, premiered, ended);
+    popup(tvCard, id, title, img, summary, rating, genres, premiered, ended);
   });
 };
 
