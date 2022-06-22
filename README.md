@@ -13,7 +13,7 @@ Wonderful-TVShows pulls data from the TVMAZE API, and shows data on main page fo
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://sanja969.github.io/Filmofill)
+[Live Demo Link](https://sanja969.github.io/Wonderful-TVShows)
 
 
 # Getting Started
