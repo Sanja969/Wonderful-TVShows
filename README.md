@@ -1,19 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Filmofill
+# Wonderful-TVShows
 
-
+Wonderful-TVShows pulls data from the TVMAZE API, and shows data on main page for different TVShows. It aslo pulls data from Involvement API to record the different user interactions (likes, comments). So you can see the most watched TVShows displayed on main page, with option to like it, and to comment it. When you click on comment button popup window will appear with more inforamtion abouut TVShow, and with form section where you can leave comment, and your commment will appear together with other comments.
 
 ## Built With
 
 - Language: ES6
-- Technologies: CSS, Linter, gitflow
+- Technologies: CSS, Linters, Boostap
 - Packages: Webpack
 
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://sanja969.github.io/Filmofill)
+[Live Demo Link](https://sanja969.github.io/Wonderful-TVShows)
 
 
 # Getting Started
@@ -42,12 +42,6 @@ I am an aspiring web developer from Serbia.
 - Twitter: [@sanjaTwit](https://twitter.com/SanjaMandic42)
 - LinkedIn: [@sanjaIn](https://linkedin.com/in/sanja-mandic-823995a2/)
 
-👤 **Ibrahim Naseer**
-
-I am an aspiring web developer from pakistan.
-- GitHub: [@ibrahimgit](https://github.com/ibrahim777764)
-- Twitter: [Ibrahimtwit](https://twitter.com/Ibrahim66650696)
-- LinkedIn: [@ibrahimlin](https://www.linkedin.com/in/ibrahim-naseer-215667225/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
