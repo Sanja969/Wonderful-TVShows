@@ -2,7 +2,7 @@
 
 # Wonderful-TVShows
 
-Wonderful-TVShows pulls data from the TVMAZE API, and shows data on main page for difrenet TVShows. It aslo pulls data from Involvement API to record the different user interactions (likes, comments). So you can see the most watch TVShows displayed on main page, with option to like it, and to comment it. When you click on comment button popup window will appear with more inforamtion abouut TVShow, and with form section when you can leave comment, and oyur commment will appear together with other comments.
+Wonderful-TVShows pulls data from the TVMAZE API, and shows data on main page for difrenet TVShows. It aslo pulls data from Involvement API to record the different user interactions (likes, comments). So you can see the most watched TVShows displayed on main page, with option to like it, and to comment it. When you click on comment button popup window will appear with more inforamtion abouut TVShow, and with form section where you can leave comment, and your commment will appear together with other comments.
 
 ## Built With
 
