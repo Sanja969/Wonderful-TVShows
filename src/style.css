@@ -6,6 +6,7 @@
   height: 150px;
   background-color: rgb(30, 29, 31);
   box-shadow: 0 0 20px white;
+  z-index: 5;
 }
 
 main {
@@ -56,10 +57,99 @@ footer > div {
   text-shadow: 0 0 5px rgb(165, 32, 32);
 }
 
+.popup {
+  position: fixed;
+  top: 30px;
+  background-color: rgb(9, 9, 9);
+  width: 90%;
+  height: 95%;
+  padding: 10px;
+  left: 5%;
+  text-align: center;
+  color: rgb(158, 155, 155);
+  box-shadow: 0 0 20px white;
+  z-index: 6;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.popup::-webkit-scrollbar {
+  width: 8px;
+}
+
+.popup::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);
+}
+
+.popup::-webkit-scrollbar-thumb {
+  background-color: #ffc107;
+  border-radius: 20px;
+}
+
+.popup > li {
+  width: 90%;
+  list-style: none;
+}
+
+.close {
+  width: 30px;
+  margin-left: 99%;
+  transform: translateX(-100%);
+  cursor: pointer;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 300px;
+  padding: 0;
+}
+
+input {
+  margin: 10px;
+  background: #ffc107;
+  border: none;
+  box-shadow: 0 0 5px 5px #ffc107;
+}
+
+.comment {
+  height: 200px;
+}
+
 @media (min-width: 768px) {
   .tv-container {
     display: grid;
     grid-template-columns: repeat(2, auto);
+  }
+
+  .popup {
+    text-align: left;
+    font-size: larger;
+  }
+
+  .popup > img {
+    float: left;
+    width: 400px;
+    margin: 20px;
+  }
+
+  .add-comment {
+    align-items: flex-start;
+  }
+
+  form {
+    width: 400px;
+    padding: 0;
+    align-items: flex-start !important;
+  }
+
+  input {
+    width: 90%;
   }
 }
 
