@@ -19,7 +19,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Filmofill',
+      title: 'Wonderful-TVShows',
       template: './src/index.html',
     }),
     new FaviconsWebpackPlugin('./src/assets/logo.png'),
