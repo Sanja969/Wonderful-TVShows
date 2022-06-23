@@ -16,6 +16,13 @@ Wonderful-TVShows pulls data from the TVMAZE API, and shows data on main page fo
 [Live Demo Link](https://sanja969.github.io/Wonderful-TVShows)
 
 
+
+## Short presentation
+
+[Video](https://www.loom.com/share/2d833e173eb044a285c50ed4f5c7cbc3)
+
+
+
 # Getting Started
 
 To get a local copy up and running follow these simple example steps.
