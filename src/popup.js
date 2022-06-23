@@ -12,7 +12,7 @@ const popup = (container, id, title, img, summary, rating, genres, premiered, en
   <h6>Genre: ${genres}</h6>
   <p>Rating: ${rating}</p>
   <h4>Summary:</h4>
-  <p>${summary}</p>`;
+  <p class="summary">${summary}</p>`;
 
   const commentsBox = document.createElement('div');
   commentsBox.className = 'comment-box';
